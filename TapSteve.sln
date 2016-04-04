@@ -7,8 +7,6 @@ Project("{B99C3721-8C67-2E81-C57D-BD7F73A99A75}") = "TapSteve", "Assembly-CSharp
 EndProject
 Project("{B99C3721-8C67-2E81-C57D-BD7F73A99A75}") = "TapSteve", "Assembly-CSharp-Editor.csproj", "{56488344-A1EA-3686-9FBB-0F6A72B8FB01}"
 EndProject
-Project("{B99C3721-8C67-2E81-C57D-BD7F73A99A75}") = "TapSteve", "Assembly-UnityScript.unityproj", "{B0603A5B-E851-3418-21D8-822296227DBA}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,10 +25,6 @@ Global
 		{56488344-A1EA-3686-9FBB-0F6A72B8FB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56488344-A1EA-3686-9FBB-0F6A72B8FB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56488344-A1EA-3686-9FBB-0F6A72B8FB01}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B0603A5B-E851-3418-21D8-822296227DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B0603A5B-E851-3418-21D8-822296227DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B0603A5B-E851-3418-21D8-822296227DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B0603A5B-E851-3418-21D8-822296227DBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,5 +32,4 @@ Global
 			GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
-
 EndGlobal

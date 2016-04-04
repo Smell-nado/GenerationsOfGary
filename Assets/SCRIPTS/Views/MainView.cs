@@ -2,6 +2,9 @@
 // Contains all views related to the app.
 public class MainView : TapSteveElement
 {
+    //Player
+    public PlayerView playerView;
+
     //limbs
     public LimbView baby;
 
@@ -15,7 +18,4 @@ public class MainView : TapSteveElement
     public LimbView adultLeftArm;
     public LimbView adultRightLeg;
     public LimbView adultLeftLeg;
-
-    //UI
-
 }
