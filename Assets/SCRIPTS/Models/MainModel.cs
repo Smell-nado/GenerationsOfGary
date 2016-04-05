@@ -62,7 +62,8 @@ public class LimbModel
 
     public int limbLevel;
 
-    public int XPReward;
+    public int orbReward;
+    public int orbLimbAmount;
     public float increaseSpeed;//This will be how much it scales per frame
     public float speedBoostFactor;
     public float speedBoostTime;
@@ -72,7 +73,8 @@ public class LimbModel
     public LimbModel(int type)
     {
         limbLevel = 1;
-        XPReward = 1;
+        orbReward = 1;
+        orbLimbAmount = 0;
         increaseSpeed = 0.005f;
         speedBoostFactor = 5f;
         speedBoostTime = 0.1f;
@@ -98,9 +100,9 @@ public class LimbModel
 
 public class PlayerModel
 {
-    public int playerLevel = 0;
-    public int mainXP = 0;
-    public bool rightHanded = false;
+    public int playerLevel;
+    public int orbAmount;
+    public bool rightHanded;
 
     public enum PlayerState {
         Baby,
@@ -111,6 +113,10 @@ public class PlayerModel
 
     public PlayerModel()
     {
+        playerLevel = 1;
+        orbAmount = 0;
+        rightHanded = true;
 
+        playerState = PlayerState.Baby;
     }
 }

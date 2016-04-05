@@ -72,7 +72,7 @@
      <None Include="Assets\EXTERNAL\SeeThroughSystem\Resources\STS_alpha_mask_ortho.shader" />
      <None Include="Assets\EXTERNAL\SeeThroughSystem\Resources\STS_alpha_hologram.shader" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>/Users/aubreyhippo/Documents/Unity Projects/TapSteve/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>/Users/aubreyhippo/Documents/Unity_Projects/TapSteve/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>

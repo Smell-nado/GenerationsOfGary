@@ -74,13 +74,13 @@
      <Compile Include="Assets\SCRIPTS\Controllers\LimbController.cs" />
      <Compile Include="Assets\SCRIPTS\Controllers\MainController.cs" />
      <Compile Include="Assets\SCRIPTS\Controllers\PlayerController.cs" />
-     <Compile Include="Assets\SCRIPTS\Controllers\PlayerMainController.cs" />
      <Compile Include="Assets\SCRIPTS\Controllers\RaycastController.cs" />
      <Compile Include="Assets\SCRIPTS\Models\MainModel.cs" />
      <Compile Include="Assets\SCRIPTS\TapSteveApplication.cs" />
      <Compile Include="Assets\SCRIPTS\TapSteveNotifications.cs" />
      <Compile Include="Assets\SCRIPTS\Views\LimbView.cs" />
      <Compile Include="Assets\SCRIPTS\Views\MainView.cs" />
+     <Compile Include="Assets\SCRIPTS\Views\PlayerView.cs" />
      <Compile Include="Assets\SCRIPTS\Views\ProgressBarView.cs" />
      <None Include="Assets\EXTERNAL\SeeThroughSystem\Resources\STS_alpha_maskRT.shader" />
      <None Include="Assets\EXTERNAL\SeeThroughSystem\Resources\STS_red_maskRT.shader" />
